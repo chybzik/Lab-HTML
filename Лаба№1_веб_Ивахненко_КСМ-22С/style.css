@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    src: local("Roboto"),
+        url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.пункты{
+	font-family: Roboto, sans-serif;
+    width: 100%;
+    max-width: 1280px;
+    font-size: 16px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+
+}
+.текст{
+    margin-left: 105px;
+    margin-right: 105px;
+    width: 1070px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: 58px;
+    justify-content: center;
+}
+  ul{
+      display: inline-flex;
+      color: #54b9a6;
+      font-size: 18px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      width: 100%;
+      margin-right: 80px;
+      max-width: 575px;
+      margin-top: 30px;
+      margin-bottom: 35px;
+}
+  header li{
+     margin-left: 60px;
+  }
+  button{
+      border: none;
+      width: 100%;
+      max-width: 190px;
+      height: 50px;
+      background-color: #16a085;
+      border-radius: 5px;
+      margin-top: 45px;
+      margin-bottom: 95px;
+      color: #f5f6f7;
+  }
+  button:focus{
+      color: #16a085;
+      border-color: #16a085;
+  }
+  h1{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #373737;
+    margin-bottom: 35px;
+  }
+  img{
+      width: 100%;
+      max-width: 1280px;
+      height: 790px;
+  }
+  .p1{
+      font-size: 12px;
+      color: #373737;
+      letter-spacing: 3px;
+      word-spacing: 9px;
+      line-height: 16px;
+      text-indent: 13px;
+  }
+  .p2{
+    font-size: 12px;
+    color: #373737;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 16px;
+}
+  .низ{
+      width: 100%;
+      max-width: 1280px;
+      height: 110px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+  }
+  .низ li{
+      color: #373737;
+  }
+  .низ li::after {
+	content: "|";
+    font-weight: bold;
+    margin-left: 12px;
+    margin-right: 12px;
+	color: #16a085;
+}
+.низ li:last-child::after {
+	display: none;
+}
+.пунктыл_left {
+    margin-left: 105px;
+    float:left;
+    width:355px;
+    margin-top: 7px;
+}
+.пунктып_right {
+    margin-right: 105px;
+    float:right;
+    width:400px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+.низ li a{
+    color: #373737;
+}
+a:visited {
+    color: #54b9a6;
+}
+a{
+    text-decoration: none;     
+}
+main{
+    background-color: #f5f6f7;
+    width: 100%; 
+    font-weight: 900;
+}
